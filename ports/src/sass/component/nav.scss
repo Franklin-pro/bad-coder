@@ -1,0 +1,29 @@
+nav{
+    background-color: rgb(82, 80, 80);
+
+    .navbar{
+        @include flexs(space-between,center,0);
+
+        .logo{
+            font-size: 2rem;
+            color: $color-text-hover;
+            padding: 1rem 5rem;
+        }
+        .nav-links{
+            @include flexs(center,center,2rem);
+            list-style: none;
+            font-size: 1.8rem;
+            padding: 1rem 3rem;
+
+            .link{
+                text-decoration: none;
+                color: $color-text-light;
+
+                &:hover{
+                    color: $color-text-hover;
+                }
+            }
+        }
+       
+    }
+}

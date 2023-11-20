@@ -1,0 +1,50 @@
+.about-container{
+    background-color: rgb(238, 233, 233);
+padding: 1rem 5rem;
+    .heads{
+        text-align: center;
+        font-size: $fontsize-lag;
+        color: $color-text-light;
+        padding: 1rem;
+    }
+    .abouts{
+        @include flexs(center,center,0);
+
+        .about-image{
+            border-top-right-radius: 1rem;
+            border-top-left-radius: 1rem;
+            background-color: rgb(44, 94, 94);
+            @include flexs(center,center,0);
+            flex-direction: column;
+            padding: 0 1rem;
+            width: 30%;
+            img{
+                width: 150px;
+                border-radius: 50%;
+                height: 150px;
+                padding-bottom: 1rem;
+             
+                
+            }
+            p{
+                font-size: $fontsize-ext;
+                padding: 3rem 0;
+            }
+        }
+        .ab-cont{
+            font-size: $fontsize-lag;
+            width: 40%;
+            text-align: center;
+            margin: 20px 25rem;
+        
+        }
+        .btn-ab{
+            @include flexs(center,center,0);
+
+            button{
+                @include button( $color-primary-dark,white);
+                font-size: $fontsize-middle;
+            }
+        }
+    }
+}

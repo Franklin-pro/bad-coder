@@ -1,0 +1,16 @@
+@import 'abstracts/extends.scss';
+@import 'abstracts/mixns.scss';
+@import 'abstracts/variables.scss';
+
+// -------bases------
+
+@import 'bases/animation.scss';
+@import 'bases/base.scss';
+@import 'bases/typography.scss';
+
+// --------components------
+@import 'component/buttons.scss';
+@import 'component/footer.scss';
+@import 'component/nav.scss';
+@import 'component/home.scss';
+@import 'component/about.scss';
