@@ -1,0 +1,134 @@
+.card-container{
+    // background-color: bisque;
+    padding: 1rem 5rem;
+
+    .card{
+        background-color: rgb(27,94,94);
+        @include flexs(center,center,1rem);
+        flex-direction: column;
+        font-size: $fontsize-middle;
+        padding: 2rem;
+        color: aliceblue;
+
+        p{
+            color: $color-text-light
+        }
+    }
+}
+.controller{
+    
+    .tools{
+        @include flexs(center,center,1rem);
+        flex-direction: column;
+
+        padding: 4rem 0;
+
+        .heads{
+            text-align: center;
+        font-size: $fontsize-lag;
+        color: $color-primary-dark;
+        padding: 1rem;
+        }
+        .image{
+            width: 800px;
+       
+            img{
+                width: 100%;
+               
+            }
+        }
+        
+    }
+    .heads{
+        text-align: center;
+    font-size: $fontsize-lag;
+    color: $color-primary-dark;
+    padding: 1rem;
+    }
+}
+.cards{
+    @include flexs(space-between,center,1rem);
+
+    .icon{
+        i{
+            font-size: 3rem;
+        }
+    }
+
+}
+
+// -------------------contact-------------------
+.heads{
+    text-align: center;
+    font-size: $fontsize-lag;
+    color: $color-primary-dark;
+    padding: 1rem;
+}
+.contacts{
+    background-color: rgb(56, 51, 51);
+    -webkit-clip-path: polygon(50% 0, 50% 100%, 0 99%, 0 19%);
+   clip-path: polygon(100% 0, 100% 100%, 0 99%, 0 12%);
+   background: #2f3133;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+   input{
+    font-size: $fontsize-ext;
+   }
+   label{
+    font-size: $fontsize-lag;
+    color: $color-bgcolor-light;
+   }
+
+   .get{
+    background: #eeeeee3b;
+    padding: 1.2rem;
+    @include flexs(space-around,left,1rem);
+    flex-direction: column;
+
+
+    .heads{
+        text-align: center;
+        font-size: $fontsize-lag;
+        color: $color-primary-dark;
+        padding: 1rem;
+    }
+    span{
+        font-size: $fontsize-middle;
+        padding-right: 1rem;
+       color: $color-text-light;
+       width: 100%;
+    }
+    p{
+        font-size: $fontsize-middle;
+        color: #ddd;
+    }
+    .get-text{
+        @include flexs(center,center,3rem);
+        flex-direction: column;
+
+        .cont-par{
+            width: 40%;
+           }
+    }
+   }
+   Button{
+    font-size: $fontsize-ext;
+    
+   }
+
+
+
+}
+.rem{
+    background: transparent;
+   &::placeholder{
+    color: rgb(124, 151, 124);
+   }
+}
+
+   .footer{
+    padding: 1.2rem;
+    text-align: center;
+    font-size: 1.4rem;
+   }
