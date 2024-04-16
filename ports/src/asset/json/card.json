@@ -1,0 +1,69 @@
+[
+    {
+      "_id": "65168f4182ac6af88f963803",
+      "name": "Alight",
+      "description": "i was working on front-end part",
+      "location":"kigali,Rwanda",
+      "teacher":"proffessor alawn",
+      "youtube":"https://www.youtube.com/watch?v=O4ybhvtUbCE",
+      "newsImage": [
+        "https://images.pexels.com/photos/20463326/pexels-photo-20463326/free-photo-of-portrait-of-an-african-man-in-sunlight.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ]
+    },
+    {
+        "_id": "65168f4182ac6af88f963803",
+        "name": "Wekraft",
+        "description": "i was working on front-end and backend part",
+        "location":"kigali,Rwanda",
+        "youtube":"https://www.youtube.com/watch?v=O4ybhvtUbCE",
+        "teacher":"proffessor jazzy",
+        "newsImage": [
+          "https://images.pexels.com/photos/20220617/pexels-photo-20220617/free-photo-of-a-woman-with-an-afro-wearing-a-leather-jacket.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ]
+      },
+      {
+        "_id": "65168f4182ac6af88f963803",
+        "name": "Alight",
+        "description": "i was working on front-end and backend part",
+        "location":"kigali,Rwanda",
+        "teacher":"proffessor alawn",
+        "youtube":"https://www.youtube.com/watch?v=O4ybhvtUbCE",
+        "newsImage": [
+          "https://images.pexels.com/photos/20463326/pexels-photo-20463326/free-photo-of-portrait-of-an-african-man-in-sunlight.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ]
+      },
+      {
+          "_id": "65168f4182ac6af88f963803",
+          "name": "Wekraft",
+          "description": "i was working on backend part",
+          "location":"kigali,Rwanda",
+          "youtube":"https://www.youtube.com/watch?v=O4ybhvtUbCE",
+          "teacher":"proffessor jazzy",
+          "newsImage": [
+            "https://images.pexels.com/photos/20220617/pexels-photo-20220617/free-photo-of-a-woman-with-an-afro-wearing-a-leather-jacket.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          ]
+        },
+        {
+          "_id": "65168f4182ac6af88f963803",
+          "name": "Alight",
+          "description": "i was working on ui/ux design part",
+          "location":"kigali,Rwanda",
+          "teacher":"proffessor alawn",
+          "youtube":"https://www.youtube.com/watch?v=O4ybhvtUbCE",
+          "newsImage": [
+            "https://images.pexels.com/photos/20463326/pexels-photo-20463326/free-photo-of-portrait-of-an-african-man-in-sunlight.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          ]
+        },
+        {
+            "_id": "65168f4182ac6af88f963803",
+            "name": "Wekraft",
+            "description": "i was working on front-end and ui/ux part",
+            "location":"kigali,Rwanda",
+            "youtube":"https://www.youtube.com/watch?v=O4ybhvtUbCE",
+            "teacher":"proffessor jazzy",
+            "newsImage": [
+              "https://images.pexels.com/photos/20220617/pexels-photo-20220617/free-photo-of-a-woman-with-an-afro-wearing-a-leather-jacket.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            ]
+          }
+   
+]

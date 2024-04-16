@@ -1,34 +1,40 @@
 .about-container{
     background-color: rgb(238, 233, 233);
-padding: 1rem 5rem;
+padding: 4rem;
     .heads{
         text-align: center;
         font-size: $fontsize-lag;
-        color: $color-primary-dark;
-        padding: 1rem;
+        color: $color-text-hover;
+       
+        font-family: "Sedgwick Ave Display", cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: uppercase
     }
     .abouts{
-        @include flexs(center,center,0);
+        @include flexs(center,center,4rem);
+        font-family: "Average Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
 
         .about-image{
-            border-top-right-radius: 1rem;
-            border-top-left-radius: 1rem;
-            background-color: rgb(44, 94, 94);
-            @include flexs(center,center,0);
-            flex-direction: column;
-            padding: 0 1rem;
-            width: 30%;
-            img{
-                width: 150px;
-                border-radius: 50%;
-                height: 150px;
-                padding-bottom: 1rem;
+           
+        
+            width: 90%;
+            // img{
+            //     width: 150px;
+            //     border-radius: 50%;
+            //     height: 150px;
+            //     padding-bottom: 1rem;
              
                 
-            }
+            // }
             p{
                 font-size: $fontsize-ext;
-                padding: 3rem 0;
+               
+                 font-family: "Average Sans", sans-serif;
+                font-weight: 400;
+                font-style: normal;
             }
             .icons{
                 background-color:rgb(238, 233, 233);;
@@ -50,18 +56,29 @@ padding: 1rem 5rem;
         }
         .ab-cont{
             font-size: $fontsize-lag;
-            width: 40%;
-            text-align: center;
-            margin: 20px 25rem;
+            font-family: "Average Sans", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            padding-left: 4rem
         
+        }
+        @media screen and (max-width:992px) {
+            .ab-cont{
+               font-size: 1.8rem
+            }
         }
         .btn-ab{
             @include flexs(center,center,0);
 
             button{
-                @include button( $color-primary-dark,white);
+                @include button( $color-text-hover,white);
                 font-size: $fontsize-middle;
             }
+        }
+    }
+    @media screen and (max-width:992px) {
+        .abouts{
+            flex-direction: column
         }
     }
     .tools{
@@ -78,7 +95,7 @@ padding: 1rem 5rem;
         .heads{
             text-align: center;
         font-size: $fontsize-lag;
-        color: $color-primary-dark;
+        color: $color-text-hover;
         padding: 1rem;
         }
     }

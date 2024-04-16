@@ -2,7 +2,7 @@
     // background-color:$color-bgcolor-light;
     padding: 4rem;
     width: 100%;
-    height: 100vh;
+  
 
     .home{
        @include flexs(space-around,center,0);
@@ -16,17 +16,31 @@
             height: 100%;
         }
        }
+       @media screen and (max-width:513px) {
+        .image{
+            width: 200px;
+            height: 200px
+        }
+       }
 
        .home-text{
         @include flexs(center,center,0);
         flex-direction: column-reverse;
+        font-family: "Average Sans", sans-serif;
+                font-weight: 400;
+                font-style: normal;
         span{
-            color: $color-primary-dark;
+            color: $color-text-hover;
+            font-family: "Sedgwick Ave Display", cursive;
+            font-weight: 400;
+            font-style: normal;
         }
         .paragraph{
             padding: 1rem 0;
             color: $color-text-dark;
-            letter-spacing: .2rem;
+            font-family: "Average Sans", sans-serif;
+            font-weight: 400;
+            font-style: normal;
        font-size: $fontsize-middle
         }
        }
@@ -35,17 +49,22 @@
     padding: 1.5rem;
 
     button{
-        @include button( $color-primary-dark,white);
+        @include button( $color-text-hover,white);
         font-size: $fontsize-middle;
     }
        }
+    }
+    @media screen and (max-width:902px) {
+        .home{
+            flex-direction: column-reverse
+        }
     }
     .let{
         @include flexs(center,center,4rem);
         padding: 1.5rem;
 
         button{
-            @include button( $color-primary-dark,white);
+            @include button( $color-text-hover,white);
             font-size: $fontsize-middle;
         }
     }

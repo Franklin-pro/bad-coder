@@ -1,5 +1,7 @@
 import React from "react";
-import me1 from '../asset/me1.JPG'
+
+import me2 from '../asset/020.jpg'
+import me3 from '../asset/166.jpg'
 import { TypeAnimation } from "react-type-animation";
 import { Carousel } from 'antd';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
@@ -13,14 +15,11 @@ function Home(){
         <div className="home-text">
        
         <div className="btn-home">
-        <Button variant="contained">
-       hire me
-      </Button>
-      <Button variant="contained">
-       get resume
+        <Button variant="contained" >
+      Visit my Github
       </Button>
         </div>
-        <p className="paragraph">i can make UI/UX Desgn and Frontend,<br/><br/> Developer you can find Me on github.</p>
+        <p className="paragraph">i can make UI/UX Desgn,Backend and Frontend, Developer you can find Me on github.</p>
         <TypeAnimation 
          sequence={[
             "HELLOO,",
@@ -44,8 +43,8 @@ function Home(){
         </div>
         <div className="image">
         <Carousel autoplay autoplaySpeed={3000}>
-        <img src={me1} alt="game" className="img"/>
-        <img src={me1} alt="game" className="img"/>
+        <img src={me2} alt="game" className="img"/>
+        <img src={me3} alt="game" className="img"/>
         </Carousel>
         </div>
 

@@ -1,12 +1,13 @@
 import React from "react";
-import ab1 from "../asset/ab1.JPG";
+// import ab1 from "../asset/ab1.JPG";
+import m1 from '../asset/119.jpg'
 import Button from '@mui/material/Button';
 import GetAppRoundedIcon from '@mui/icons-material/GetAppRounded';
 import { Image } from "antd";
-import InstagramIcon from '@mui/icons-material/Instagram';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// import InstagramIcon from '@mui/icons-material/Instagram';
+// import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+// import GitHubIcon from '@mui/icons-material/GitHub';
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function About() {
   return (
     <>
@@ -15,22 +16,9 @@ function About() {
         <div className="abouts">
           <div className="about-image">
           <Image
-          src={ab1} alt="about"
+          src={m1} alt="about"
           >
-
           </Image>
-           
-            <h1>HELLOO,I'm Franklin</h1>
-            <p>
-              i'm full-stack web developer,i can make beautiful project you can
-              find Me on ALL platform.
-            </p>
-            <div className="icons">
-            <InstagramIcon className="icon"/>
-            <WhatsAppIcon className="icon"/>
-            <GitHubIcon className="icon"/>
-            <LinkedInIcon className="icon"/>
-            </div>
           </div>
           <div className="about-content">
             <p  className="ab-cont">
