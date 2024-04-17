@@ -22,30 +22,11 @@ function Welcome() {
         </div>
       
       </div>
-      <div className="contact-container">
-        <div className="contacts">
-        <div className="contact-left">
-        <div className="contact-head">
-        <h1>I'm here to help. Feel free to get in touch with Me.</h1>
-        <p>I value your questions, feedback, and inquiries</p>
-        </div>
-        <div className="bottom">
-            <h2>Lets Talk.</h2>
-            <p>Please fill in the details and we will be in touch shortly or send us email or Call us</p>
-            <div className="bold">
-            <b>franklinprogrammer.com</b>
-            <b>+250783446449</b>
-            </div>
-            
-        </div>
-        </div>
-        <div className="contact-right">
-        <h3>Complete the form below...</h3>
+   
+   
         <Contacts/>
         
-        </div>
-        </div>
-        </div>
+        
 
 
       <div className="footer">

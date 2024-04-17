@@ -12,25 +12,16 @@ padding: 4rem;
         text-transform: uppercase
     }
     .abouts{
-        @include flexs(center,center,4rem);
+        @include flexs(center,right,4rem);
         font-family: "Average Sans", sans-serif;
         font-weight: 400;
         font-style: normal;
 
         .about-image{
+            width: 100%;
            
-        
-            width: 90%;
-            // img{
-            //     width: 150px;
-            //     border-radius: 50%;
-            //     height: 150px;
-            //     padding-bottom: 1rem;
-             
-                
-            // }
             p{
-                font-size: $fontsize-ext;
+                font-size: 1.8rem;
                
                  font-family: "Average Sans", sans-serif;
                 font-weight: 400;
@@ -59,7 +50,7 @@ padding: 4rem;
             font-family: "Average Sans", sans-serif;
                 font-weight: 400;
                 font-style: normal;
-            padding-left: 4rem
+           padding: 4rem 1rem ;
         
         }
         @media screen and (max-width:992px) {
@@ -99,4 +90,18 @@ padding: 4rem;
         padding: 1rem;
         }
     }
+}
+
+.contact-form{
+   
+    padding: 2rem;
+   h1{
+    color: $color-text-hover;
+       
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase
+   }
+
 }

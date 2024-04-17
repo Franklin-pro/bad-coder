@@ -1,9 +1,6 @@
 import React from "react";
-
 import me2 from '../asset/020.jpg'
-import me3 from '../asset/166.jpg'
 import { TypeAnimation } from "react-type-animation";
-import { Carousel } from 'antd';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Button from '@mui/material/Button';
 
@@ -42,10 +39,7 @@ function Home(){
          </TypeAnimation>
         </div>
         <div className="image">
-        <Carousel autoplay autoplaySpeed={3000}>
         <img src={me2} alt="game" className="img"/>
-        <img src={me3} alt="game" className="img"/>
-        </Carousel>
         </div>
 
         </div>
